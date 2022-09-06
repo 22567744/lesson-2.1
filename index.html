@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Lesson 2</title>
+	</head>
+	<body>
+		<!-- Анатомія HTML-тегу -->
+
+		<!-- Тег з елементом що зачиняє -->
+		<!-- 
+		<ім'я_тегу>
+			наповнення тегу
+		</ім'я_тегу>
+		 -->
+
+		<!-- Тег без елемента що зачиняє -->
+		<!-- 
+			<ім'я_тегу>
+			або 
+			<ім'я_тегу />
+		 -->
+
+		<!-- Атрибут тегу -->
+		<!-- 
+			<ім'я_тегу ім'я_атрибуту="значення атрибуту">
+			</ім'я_тегу>
+		 -->
+
+		<!-- Приклад -->
+		<!-- 
+		<div class="block" title="Я дів">
+			...
+		</div>
+
+		<br class="break" title="Обрив строки">
+		 -->
+
+		<!-- Умовні категорії тегів -->
+
+		<!-- Будівельні теги (усі блочні) -->
+		<!-- DIV-тег без призначення -->
+		<!-- <div></div> -->
+		<!-- HEADER-шапка сайту/блоку -->
+		<!-- <header></header> -->
+		<!-- FOOTER-підвал сайту -->
+		<!-- <footer></footer> -->
+		<!-- MAIN-головна частина сторінки -->
+		<!-- <main></main> -->
+
+		<!-- Теги для контенту -->
+		<!-- P-параграф тексту (блочний) -->
+		<!-- 
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo esse veritatis eaque voluptas quod reiciendis quasi accusantium, laboriosam facilis aliquid quia nulla eveniet repellat expedita similique minima unde nam quibusdam?
+		</p>
+		 -->
+		<!-- A-посилання (рядковий) -->
+		<!-- <a target="_blank" href="https://google.com">Посилання на Google</a> -->
+		<!-- IMG-додавання зображення (в html рядковий) -->
+		<!-- <img src="img/01.png" alt="Будівництво"> -->
+		<!-- BR-переревання рядка ( МАЙЖЕ блочний) -->
+		<!-- 
+		<p>
+			Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Illo esse veritatis eaque voluptas quod reiciendis quasi accusantium, laboriosam facilis aliquid quia nulla eveniet repellat expedita similique minima unde nam quibusdam?
+		</p>
+		 -->
+		<!-- SPAN-виділення частини рядка (рядковий) -->
+		<!-- 
+		<span></span>
+		<p>
+			Lorem ipsum dolor sit <span>amet consectetur</span> adipisicing elit. Illo esse veritatis eaque voluptas quod reiciendis quasi accusantium, laboriosam facilis aliquid quia nulla eveniet repellat expedita similique minima unde nam quibusdam?
+		</p>
+		 -->
+		<!-- MARK-виділяє/підсвічує частину рядка (рядковий) -->
+		<!-- 
+		<mark></mark>
+		<p>
+			Lorem ipsum dolor sit <mark>amet consectetur</mark> adipisicing elit. Illo esse veritatis eaque voluptas quod reiciendis quasi accusantium, laboriosam facilis aliquid quia nulla eveniet repellat expedita similique minima unde nam quibusdam?
+		</p>
+		 -->
+		<!-- UL-маркований список (блочний) -->
+		<!-- LI-елемент списку (блочний) -->
+		<!-- 
+		<ul>
+			<li>Пункт</li>
+			<li>Пункт</li>
+			<li>Пункт</li>
+		</ul>
+		 -->
+		<!-- Вкладення -->
+		<!-- 
+		<ul>
+			<li>Пункт</li>
+			<li>
+				Пункт
+				<ul>
+					<li>Підпункт</li>
+				</ul>
+			</li>
+			<li>Пункт</li>
+		</ul>
+		 -->
+		<!-- OL-нумерований список (блочний) -->
+		<!-- LI-елемент списку (блочний) -->
+		<!-- Додаткові атрибути тегу https://www.w3schools.com/tags/tag_ol.asp -->
+		<!-- 
+		<ol>
+			<li>Пункт</li>
+			<li>Пункт</li>
+			<li>Пункт</li>
+		</ol>
+		 -->
+		<!-- H*-заголовок (блочний) -->
+		<!-- 
+		<h1>Я заголовок 1</h1>
+		<h2>Я заголовок 2</h2>
+		<h3>Я заголовок 3</h3>
+		<h4>Я заголовок 4</h4>
+		<h5>Я заголовок 5</h5>
+		<h6>Я заголовок 6</h6>
+		 -->
+
+		<!-- Типи тегів -->
+		<!-- Блочні та Рядкові -->
+
+		<!-- 
+			Блочний тег займатиме усю 
+			ширину батьківсього елементу. 
+			Висоту - згідно контенту.
+
+			Наступний, після блочного елементу,
+			об'єкт, буде виведений з нового рядка.
+		-->
+
+		<!-- 
+			Рядковий тег займатиме ширину 
+			згідно контенту.
+			Висоту - згідно контенту.
+
+			Наступний, після рядкового елементу,
+			рядковий об'єкт, буде намагатись
+			розміститись з ним у рядок.
+		-->
+
+
+		<!-- Практичний приклад -->
+
+		
+   <header>
+		Фестиваль дерунов
+	 </header>
+
+	 <h1>
+		День дерунов
+	 </h1>
+
+	 <p>
+		Любимый многими замечательный осенний праздник Фестиваль дерунов «День Деруна»<br>
+	  проводится каждый год в сентябре в маленьком городке Коростене, расположенный<br>
+	  в живописном Полесье на территории городища древлян.
+	 </p>
+
+	 <img src="img/festival_deruniv-4.jpg" alt="Деруни">
+
+	 <p>
+		Тоненькие и хрустящие, с лучком, грибами,со шкварками, а может запеченные в сметане? Какие деруны любите вы? <br>
+		И если ответ «любые», то вы просто обязаны посетить ежегодный День Деруна в Коростене!
+	 </p>
+
+	 <h2>
+		Деруни в Коростені.
+	 </h2>
+
+	 <img src="img/630_360_1535978567-2024.jpg" alt="Деруни">
+
+	 <p>
+		Фестиваль дерунов в Коростене традиционно проходит в сентябре. Он стартует в полдень праздничным шествием по<br>
+		центральной улице города, после чего в Центральном парке проводится <br>
+		торжественное открытие праздника с поднятием флага и исполнением гимна фестиваля.
+
+    Фестиваль дерунов в Коростене - это незабываемое путешествие <br>
+    в мир национальной традиционной кухни и чрезвычайного украинского колорита!
+	 </p>
+
+	 <img src="img/images.jpg"> alt="Деруни">
+
+	 <p>
+		На гастрофестивале можно будет попробовать<br>
+		разные виды дерунов и путем <br>
+		голосования выбрать самый вкусный дерун года.
+	 </p>
+
+	 <img src="=img/festival_deruniv-4.jpg"> alt
+
+	 
+		
+			<ul>
+				<li>Картофель – 6-7 шт.</li>
+				<li>Репчатый лук – 1 шт.</li>
+        <li>Яйцо куриное – 1 шт.</li>
+				<li>Соль – по вкусу</li>
+				<li>Молотый черный перец – по вкусу</li>
+				<li>Свежая зелень – 0.5 пучка</li>
+				<li>Растительное масло – для жарки</li>
+			</ul>
+
+</body>
+</html>
